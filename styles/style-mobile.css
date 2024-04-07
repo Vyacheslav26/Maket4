@@ -1,0 +1,113 @@
+@media(max-width:767px){
+
+body{
+    width: 100%;
+    margin: 0;
+    font-family: "TT Lakes", "Arial", sans-serif;
+    background-color: white;
+}
+
+.header{
+    height: 88px;
+}
+
+.header__menudesk,.deskblog__text,.reviews,.header__menutablet,.menu__nav::-webkit-scrollbar,.tabletblog__text{
+    display: none;
+}
+
+.header__menumobile{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 24px;
+    vertical-align: middle;
+}
+
+.main__title{
+    display: flex;
+    align-items: center;
+}
+
+.main__title>h1{
+    padding-left: 16px;
+}
+
+.menu__nav{
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    display: flex;
+    height: 40px;
+    padding-left: 16px;
+    overflow: auto;
+}
+
+.menu__nav .nav__links{
+    color: #7E7E82;
+    line-height: 24px;
+    height: 40px;
+    white-space: nowrap;
+    align-items: center;
+    text-decoration: unset;
+    justify-content: center;
+    display: flex;
+    padding-right: 16px;
+    padding-left: 16px;
+    
+}
+
+.menu__nav .nav__links:focus{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    border-color: #B8FFEC;
+    background-color: white;
+}
+
+.allblog__text{
+    padding-left: 16px;
+    width: 288px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    padding-top: 16px;
+}
+
+.readmore{
+    display: flex;
+    padding-left: 16px;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+
+.readmore .readmore__link{
+    padding-left: 16px;
+    font-size: 16px;
+    color: #1B1C21;
+    font-weight: 600;
+    text-decoration: unset;
+}
+
+.blog__img{
+    padding-top: 16px;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: local('TT Lakes');
+    src: url('assets/fonts/TTLakes-Regular.eot') format('embedded-opentype'),
+    url('assets/fonts/TTLakes-Regular.woff') format('woff'),
+    url('assets/fonts/TTLakes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Bold';
+    src: local('TT Lakes');
+    src: url('assets/fonts/TTLakes-Bold.eot') format('embedded-opentype'),
+    url('assets/fonts/TTLakes-Bold.woff') format('woff'),
+    url('assets/fonts/TTLakes-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+}

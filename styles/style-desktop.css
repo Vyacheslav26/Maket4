@@ -1,0 +1,163 @@
+@media(min-width:1024px){
+
+    body{
+        width: 100%;
+        margin: 0;
+        font-family: "TT Lakes", "Arial", sans-serif;
+    }
+    
+    .header__menumobile,.header__menutablet,.main__title,.tabletblog__text,.menu__nav::-webkit-scrollbar{
+        display: none;
+    }
+
+    .header__menudesk{
+        display: flex;
+        justify-content:space-between;
+        padding-top: 42px;
+        height: 40px;
+    }
+
+    .menudesk__right{
+        display:flex;
+        vertical-align: middle;
+        align-items: center;
+        padding-right: 16px;
+    }
+
+    .menudesk__right .menudesk__link{
+        padding-right: 16px;
+        font-size: 16px;
+        color: #1B1C21;
+        font-weight: 600;
+        text-decoration: unset;
+        padding-left: 16px;
+    }
+
+    .header__titledesk{
+        display: flex;
+        align-items: center;
+    }
+
+    .header__titledesk h1{
+        font-size: 28px;
+        padding-left: 16px;
+    }
+
+    h1{
+        padding-left: 16px;
+    }
+    
+    .menu__nav{
+        font-size: 16px;
+        letter-spacing: -0.2px;
+        display: flex;
+        height: 40px;
+        overflow: auto;
+        padding-top: 16px;
+        gap:16px;
+        padding: 16px;
+    }
+    
+    .menu__nav>.nav__links{
+        color: #7E7E82;
+        line-height: 24px;
+        height: 40px;
+        white-space: nowrap;
+        align-items: center;
+        text-decoration: unset;
+        justify-content: center;
+        display: flex;
+        padding-right: 16px;
+    }
+
+    .reviews{
+        color: #7E7E82;
+        line-height: 24px;
+        height: 40px;
+        text-decoration: unset;
+        padding-left: 33px;
+    }
+
+    .reviews:focus{
+        border: 2px solid transparent;
+        border-radius: 5px;
+        border-color: #B8FFEC;
+        background-color: white;
+    }
+    
+    .menu__nav .nav__links:focus{
+        border: 2px solid transparent;
+        border-radius: 5px;
+        border-color: #B8FFEC;
+        background-color: white;
+    }
+    
+    .blog__text .allblog__text{
+        padding-left: 16px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        padding-top: 16px;
+        width: 490px;
+    }
+    .blog__text .deskblog__text{
+        padding-left: 16px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        padding-top: 16px;
+        width: 490px;
+
+    }
+    
+    .readmore{
+        display: flex;
+        padding-left: 16px;
+        vertical-align: middle;
+    }
+    
+    .readmore__link{
+        padding-left: 16px;
+        font-size: 16px;
+        color: #1B1C21;
+        font-weight: 600;
+        text-decoration: unset;
+    }
+    
+    .blog__img{
+      width:45%;
+        padding-right:16px;
+        padding-top: 5px;
+    }
+
+    .blog__text{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+    .blog{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    @font-face {
+        font-family: 'TT Lakes';
+        src: local('TT Lakes');
+        src: url('assets/fonts/TTLakes-Regular.eot') format('embedded-opentype'),
+        url('assets/fonts/TTLakes-Regular.woff') format('woff'),
+        url('assets/fonts/TTLakes-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'TT Lakes Bold';
+        src: local('TT Lakes');
+        src: url('assets/fonts/TTLakes-Bold.eot') format('embedded-opentype'),
+        url('assets/fonts/TTLakes-Bold.woff') format('woff'),
+        url('assets/fonts/TTLakes-Bold.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    }
+    
